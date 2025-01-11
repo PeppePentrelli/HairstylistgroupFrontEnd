@@ -1,0 +1,255 @@
+[
+    {
+        "id": 1,
+        "name": "Daily Shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/daily_shampoo_250_ml-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+    },
+    {
+        "id": 2,
+        "name": "hydrate shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/hydrate-shampoo_250-ml-removebg-preview (1).png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 3,
+        "name": "hydrate condittioner",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/hydrate-condittioner-250-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 4,
+        "name": "Shine&color shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/shine_color-shampoo_250-ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 5,
+        "name": "Shine&color condittioner",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/shine_color-conditioner_250-ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 6,
+        "name": "Detox shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/detox-purify-shampoo_250_ml-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 7,
+        "name": "Detox purify mask",
+        "category": "Lavaggio",
+        "ml": "500 ml",
+        "url": "Media Prodotti Joinus/detox-purify-600x900-removebg-preview (1).png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 8,
+        "name": "Detox scrub shampoo",
+        "category": "Lavaggio",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/detox-scrub-shampoo_500_ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 9,
+        "name": "Detox oil",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/detox-oil-600x899-removebg-preview.png",
+        "descrizione" : "`Detox Oil è un trattamento innovativo, formulato per offrire una pulizia profonda con un effetto rigenerante al cuoio capelluto. Pensato per l’applicazione professionale in salone e come mantenimento a casa, questo prodotto a base acquosa, arricchito di ingredienti speciali della skincare con oli in formula, e la soluzione perfetta per purificare e rivitalizzare la cute. Ideale per un cuoio capelluto sensibile.`"
+
+    },
+    {
+        "id": 10,
+        "name": "Keratin Pro",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/keratin-pro-new-1-600x900-removebg-preview (2).png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 11,
+        "name": "Cutexyl shampoo",
+        "category": "AntiCaduta",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/cutexyl-shampoo-250-ml-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 12,
+        "name": "Cutexyl lotion",
+        "category": "AntiCaduta",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/cutexyl-lotion-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 13,
+        "name": "Vital energy shampoo",
+        "category": "AntiCaduta",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/vital-energy-shampoo_200-ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 14,
+        "name": "Vital energy serum",
+        "category": "AntiCaduta",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/vital-serium-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 15,
+        "name": "Volume shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/volume-shampoo_250-ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 16,
+        "name": "Volume condittioner",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/volume-conditioner_250_ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+
+    },
+    {
+        "id": 17,
+        "name": "Lamelux shampoo",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/lam-shampoo-1000-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 18,
+        "name": "Lamelux water",
+        "category": "Lavaggio",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/lamelux-water-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 19,
+        "name": "Lamelux mask",
+        "category": "Lavaggio",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/lamelux-water-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 21,
+        "name": "Like you",
+        "category": "styling",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/likeyou-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 22,
+        "name": "My curly strong",
+        "category": "styling",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/mystrongcurly-600x899-removebg-preview (1).png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 23,
+        "name": "My curly",
+        "category": "styling",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/wow-my-curly_crema-ricci-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 24,
+        "name": "queen pearls",
+        "category": "styling",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/queen_pealrs-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 25,
+        "name": "Tsubaky oil",
+        "category": "styling",
+        "ml": "100 ml",
+        "url": "Media Prodotti Joinus/wow-tsubaky-oil-600x900-removebg-preview (1).png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 26,
+        "name": "Keratin spray",
+        "category": "styling",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/wow-keratin-spray_200-ml-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 27,
+        "name": "Filler spray",
+        "category": "styling",
+        "ml": "10 ml",
+        "url": "Media Prodotti Joinus/wow-instant-filler-spray-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 28,
+        "name": "Trust me hair spray",
+        "category": "finish",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/trustme-hairspray-lacca-600x899-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    },
+    {
+        "id": 29,
+        "name": "Create your style",
+        "category": "finish",
+        "ml": "250 ml",
+        "url": "Media Prodotti Joinus/wow-create-your-style_spray-wax-600x900-removebg-preview.png",
+        "descrizione" : "`shampo per gapelli deboli`"
+
+    }
+ 
+]

@@ -1,115 +1,492 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hairstylistgroup</title>
+  <!-- Link Swiper -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <!-- Link Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   
   <!-- Link Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- Link Css -->
   <link rel="stylesheet" href="Home.css">
 </head>
+
 <body>
   
-  <!-- Inizio Navbar --><nav class="navbar navbar-expand-lg navCustom fixed-top">
+  
+  
+  <!-- Inizio Navbar -->
+  <nav class="navbar navbar-expand-lg navCustom fixed-top">
     <div class="container-fluid">
       <span class="spanCustom1">
         <img class="img-fluid logoCustom" src="Media/Logo-White.png" alt="Logo Hairstylistgroup">
         
       </span>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ulNavCustom">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"><span class="spanLinkNav"><i class="fa-solid fa-house"></i></span>Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ulNavCustom">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#"><span class="spanLinkNav"><i
+            class="fa-solid fa-house"></i></span>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-scissors"></i></span>Servizi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-tag"></i></span>Promozioni</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-people-group"></i></span>Chi Siamo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-phone"></i></span>Prenota Appuntamento</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Fine Navbar -->
-  
-  
-  <!-- Inizio Header -->
-<!-- Inizio Carosello -->
-<header class="">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="img-fluid d-block w-100" src="Media/Ready to make some noise.png" alt="Immagine di bevenuto da Hairstylistgroup">
-      </div>
-      <div class="carousel-item">
-        <img src="Media/ImmaginePresentazioneOmeorganic.png" class="d-block w-100 img-fluid" alt="Immagine di Presentazione azienda Omeorganic">
-      </div>
-      <div class="carousel-item">
-        <img src="Media/ImmagineRagazzaRiccia.jpg" class="d-block w-100" alt="foto di una ragazza con i capelli ricci">
-      </div>
-      <div class="carousel-item">
-        <img src="Media/ImmaginePresentazioneJoiuns.png" class="d-block w-100" alt="foto di una ragazza con i capelli ricci">
-      </div>
-    </div>
-  </div>
-</header>
-<!-- Fine Carosello -->
-
-
-  
-  <!-- Fine Header -->
-  
-  <div style="height: 300px;"></div>
-  
-  <section class="container-fluid">
-    <div class="row">
-      <img class="img-fluid px-0" src="Media/4.png" alt="">
-    </div>
-    
-  </section>
-  
-
-
-
-
-  <!--Inizio Footer -->
+            <a class="nav-link" href="#"><span class="spanLinkNav"><i
+              class="fa-solid fa-scissors"></i></span>Servizi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="HomeProdotti.html"><span class="spanLinkNav"><i class="fa-solid fa-tag"></i></span>Prodotti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-people-group"></i></span>Chi
+                Siamo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="spanLinkNav"><i class="fa-solid fa-phone"></i></span>Prenota
+                  Appuntamento</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Fine Navbar -->
+        
+        
+        <!-- Inizio Header -->
+        <!-- Inizio Carosello -->
+        <header class="">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid d-block w-100" src="Media/welcome.png"
+                alt="Immagine di bevenuto da Hairstylistgroup">
+              </div>
+              <div class="carousel-item">
+                <img src="Media/ImmaginePresentazioneOmeorganic.png" class="d-block w-100 img-fluid"
+                alt="Immagine di Presentazione azienda Omeorganic">
+              </div>
+              <div class="carousel-item">
+                <img src="Media/ImmagineRagazzaRiccia.jpg" class="d-block w-100"
+                alt="foto di una ragazza con i capelli ricci">
+              </div>
+              <div class="carousel-item">
+                <img src="Media/ImmaginePresentazioneJoiuns.png" class="d-block w-100"
+                alt="foto di una ragazza con i capelli ricci">
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Fine Carosello -->
+        
+        
+        <!-- Fine Header -->
+        
+        <div class="bgImg">
+          <!-- main Presentazione -->
+          <main class="container-fluid">
+            <div class="row sectionPresentazione justify-content-center">
+              <article class="col-12 col-md-4 text-center justify-content-center d-flex flex-column">
+                <h1>Benvenuti da HairstylistGroup</h1>
+                <p>
+                  Da 53 anni, HairstylistGroup è sinonimo di eccellenza e dedizione nel campo della bellezza e della cura dei capelli. La nostra missione è offrire ai nostri clienti un'esperienza unica, caratterizzata da un'attenzione meticolosa e personalizzata. Ecco cosa ci distingue:
+                  
+                  Attenzione al Cliente: Ogni cliente è unico, e noi ci impegniamo a garantire che ognuno si senta speciale. Dall'accoglienza alla consulenza, fino al servizio finale, mettiamo sempre il cliente al centro.
+                  
+                  Cura del Capello e della Cute: La salute dei capelli e del cuoio capelluto è fondamentale. Utilizziamo tecniche avanzate e prodotti di alta qualità per assicurare il massimo benessere e splendore.
+                  
+                  Consulenze Personalizzate: Prima di ogni servizio, offriamo consulenze dettagliate per capire le esigenze specifiche di ogni cliente e proporre le soluzioni più adatte.
+                  
+                  Servizi Completi: Le nostre pieghe non sono solo un semplice styling. Sono un’esperienza che include tutti i trattamenti necessari per un risultato perfetto e duraturo.
+                  
+                  53 Anni di Eccellenza: In soli tre anni, ci siamo guadagnati la fiducia e la fedeltà di molti clienti grazie alla nostra passione e professionalità.
+                  
+                  Prodotti Selezionati: Utilizziamo solo prodotti accuratamente selezionati per soddisfare ogni tipo di esigenza, rispettando la salute dei capelli e del cuoio capelluto.
+                </p>
+                <h5><em>Venite a trovarci e scoprite perché HairstylistGroup è il salone di fiducia per chi cerca non solo bellezza, ma anche cura e benessere. La vostra soddisfazione è il nostro obiettivo più grande.</em>
+                </h5>
+                <p>Benvenuti nel luogo dove ogni dettaglio conta e ogni cliente è protagonista.</p>
+              </article>
+              <article class="col-12 col-md-6 d-flex justify-content-center">
+                <img  class="img-fluid img-presentazione" src="Media/FotoRamataJoinus.jpg" alt="">
+              </article>
+            </div>
+          </main>
+          <!--Fine Section1 Presentazione -->
+          
+          
+          <!-- section Card e servizi -->
+          <section class="container-fluid">
+            <h3 class="text-center my-5 text-section-card h3-main">Scopri il mondo HairstylistGroup</h3>
+            <div class="row justify-content-center row-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide card">
+                    <div class="card-content">
+                      <img src="Media/scalpspa.png" alt="Immagine ragazza coperta di fiori">
+                      <h3>Trattamenti cutanei</h3>
+                      <p>Scopri i trattamenti per il benessere della cute</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide card ">
+                    <div class="card-content">
+                      <img src="Media/colortalkyou.png" alt="immagine ragazza che si accarezza i capelli">
+                      <h3>Servizi tecnici</h3>
+                      <p>Prenota una consuleza gratuita per la tua colorazione personalizzata</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide card">
+                    <div class="card-content">
+                      <img src="Media/loSapeviChe.png" alt="Immagine che chiede: sai perchè la keratina è importante per il tuo capello?">
+                      <h3>Ricostruzioni</h3>
+                      <p>Scopri di più sulle nostre ricostuzioni</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide card">
+                    <div class="card-content">
+                      <img src="Media/remember.png" alt="Immagine che ricorda l'importanza dei prodotti per il mantenimento a casa">
+                      <h3>Prodotti</h3>
+                      <p>Scopri come ottenere capelli come dal parrucchiere anche a casa</p>
+                    </div>
+                  </div>
+                  
+                  <!-- Aggiungi altre card qui -->
+                </div>
+                <!-- Aggiungi i pulsanti di navigazione -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Aggiungi i paginatori -->
+                <div class="swiper-pagination"></div>
+              </div>
+              
+            </div>
+          </section>
+          <!-- Fine section card  -->
+          
+          <div style="height: 300px;"></div>
+          
+          
+          <!-- Galleria HairStylistGroup -->
+          
+          
+          <!-- Galleria HairStylistGroup -->
+          
+          
+          
+          
+        </div>
+        <!-- sezione joinus -->
+        
+        <div class="text-center">
+          <h2 style="color: #fff;">Scopri i nostri Partner di Fiducia</h2>
+          <div><img style="height: 300px;" class="img-fluid" src="Media/joinus logo.png" alt=""></div>
+        </div>
+        <section class="container-fluid section-joinus"> 
+          <div class="row text-center titoli-section-joinus">
+            
+            <div class="col-12">
+              
+              <img class="img-fluid" src="Media/slider-joinus.jpg" alt=""></div>
+            </div>
+            <div class="container-fluid">
+              <div class="row justify-content-center align-item-center">
+                <article class="col-12 col-md-4 text-center flex-column justify-content-center align-content-center me-5 pe-0 me-0">
+                  <h2>Qualità e innovazione</h2>
+                  <p>Grazie a una ricerca approfondita e all'amore per l'innovazione, selezioniamo gli ingredienti migliori della skincare per offrire prodotti di haircare di altissima qualità.</p>
+                  <h3>Il nostro impegno</h3>
+                  <p>La nostra missione è trasformare la cura dei capelli attraverso la qualità, la ricerca e l'innovazione. Grazie a studi approfonditi e al nostro impegno costante nell'innovazione, selezioniamo gli ingredienti migliori della skincare per offrire prodotti di haircare di altissima qualità.</p>
+                </article>
+                <div class="col-12 col-md-6 divImgJoinus d-flex justify-content-center align-item-center">
+                  <img class="img-fluid imgSectionJoinus" src="Media/Lamelux Poster.png" alt="">
+                </div>
+              </div>
+              <div class="row justify-content-center align-item-center">
+                <div class="col-12 col-md-6 divImgJoinus d-flex justify-content-center align-item-center item-1">
+                  <img class="img-fluid imgSectionJoinus2" src="Media/proteine del grano.webp" alt="">
+                </div>
+                <article class="col-12 col-md-4 text-center flex-column justify-content-center align-content-center me-5 pe-0 me-0 item-2">
+                  <h2>Principali ingredienti</h2>
+                  <h3>MicroProtenia del grano</h3>
+                  <p>Grazie a una ricerca approfondita e all'amore per l'innovazione, selezioniamo gli ingredienti migliori della skincare per offrire prodotti di haircare di altissima qualità.</p>
+                  <p>La nostra innovativa colorazione in gel non solo offre una copertura del colore intensa e duratura, ma anche numerosi benefici ristrutturanti e illuminanti. Questo prodotto rivoluzionario rivitalizza, rigenera e fortifica i capelli durante il processo di colorazione, grazie alla sua formula avanzata che riempie le aree svuotate di cheratina e sigilla il colore ad ossidazione. Il risultato? Capelli più forti, più lucidi e luminosi, con punte riparate e una vibrante bellezza naturale che risplende.</p>
+                  <button class="buttonJoinus">Scopri di più</button>
+                  <div class="col-12 mt-5 text-start justify-content- d-flex align-content-center showInfo">
+                  </div>
+                  
+                </article>
+                
+                
+                
+                <div class="container-fluid ">
+                  <div class="row text-center justify-content-center align-content-center align-item-center">
+                    <div class="col-12 col-md-4 ">
+                      <h2>Bonder filler</h2>
+                      <p>hdbhdbdjb</p>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex hic provident ab fugiat ratione sapiente corrupti doloribus quisquam beatae, porro suscipit, sequi veritatis! Quod pariatur molestiae, quos quidem commodi deserunt.</p>
+                      <button class="buttonJoinusBis">Scopri di più</button>
+                      <div id="showInfo2"></div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                      <img class="img-fluid" src="Media/legami-cheratina.webp" alt="">
+                    </div>
+                    
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Fine section joinus -->
+            
+            
+            <section class="container-fluid">
+              <div class="row">
+                <img class="img-fluid px-0" src="Media/4.png" alt="">
+              </div>
+              
+            </section>
+            
+            
+            
+            
+            <!-- Section Omeorganic -->
+            <section class="container-fluid containerOmeOrganic">
+              
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-6 text-center d-flex justify-content-center flex-column">
+                  <h2>Cio che metti sulla pelle e importante come cio che mangi</h2>
+                  <img src="Media/omeorganic-logo.webp" alt="">
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-12">
+                  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic1.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic2.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic3.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic4.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic5.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic6.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic7.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic8.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic9.gif" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                  <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic1.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic2.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic3.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic4.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic5.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic6.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic7.gif" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic8.gif"/>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Media/slide-omeOrganic9.gif"/>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+            </section>
+            <!-- Section Omeorganic -->
+            
+            <aside class="bgImg">
+              
+              
+              
+              <!-- section orari lavorativi -->
+              <section class="container pb-5 bg-primary-color section-orari-lavorativi">
+                <div class="row justify-content-center">
+                  
+                  <div class="col-12 col-md-3 mt-5 ">
+                    <div class="d-flex flex-column align-items-center text-primary-color img-fluid ">
+                      <h5>ORARI LAVORATIVI</h5>
+                      <P >Lunedi <data>Chiuso</data></P>
+                      <P >Martedi <data>9.00 - 19.00</data></P>
+                      <P > Mercoledi <data>9.00 - 19.00</data></P>
+                      <P >Giovedi <data>9.00 - 19.00</data></P>
+                      <P >Venerdi <data>9.00 - 19.00</data></P>
+                      <P >Sabato <data>9.00 - 19.00</data></P>
+                      <P >Domenica <data>Chiuso</data></P>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </section>
+            <!-- fine section orari lavorativi -->
+            
+            
+            
+            <!-- Section mappa e contatti social -->
+            <section class="container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-6 map-container text-center">
+                  <h2 class="">Siamo in via Giovanni modugno 12A/B</h2>
+                  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d751.5802877079362!2d16.866461603601497!3d41.10567675136491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1735586831247!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12  col-md-6 contattiCustom">
+                  
+                  <button class="button-4">
+                    <div class="links">
+                      <a href="" class="button-4-box">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="" class="button-4-box">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="" class="button-4-box">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+                      <a href="" class="button-4-box">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                    <span>Contattaci</span>
+                  </button>
+                </div>
+                
+              </div>
+            </section>
+            <!--Fine Section mappa e contatti social -->
+            
+            
+            <!-- section faq -->
+            <section class="container">
+              <h2 class="text-center h2Faq">FAQ</h2>
+              
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="accordion my-5" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Quanto spesso dovrei lavare i capelli?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            La frequenza con cui lavare i capelli dipende dal tipo di capello e dal cuoio capelluto. In generale, i capelli normali possono essere lavati 2-3 volte a settimana, mentre quelli grassi potrebbero aver bisogno di lavaggi più frequenti.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Come posso scegliere i prodotti giusti per i miei capelli?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            La scelta dei prodotti giusti dipende dal tuo tipo di capelli (grassi, secchi, misti) e da eventuali problemi specifici (forfora, capelli colorati, ecc.).Prenoare presso il salone per una consulenza personalizzata.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Come prenotare un appuntamento?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p> Puoi prenotare un appuntamento telefonicamente, online o direttamente in salone.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- fine section faq -->
+            
+            
+            
+          </aside>
+          
+          
+          <!--Inizio Footer -->
           <footer class="container-fluid footer">
             <div class="row justify-content-center text-center mt-5">
               
               <!--Colonna Partner -->
               
               <div class="col-12 col-md-3 d-flex flex-column mt-4">
-                <h3>Partner</h3>
+                <h3 class="h-footer">Partner</h3>
                 <span class="mt-3">
-                  <p>Joinus  <i class="fa-brands fa-amilia"></i></p>
+                  <p>Joinus <i class="fa-brands fa-amilia"></i></p>
                 </span>
                 <span>
-                  <p>Omeorganic  <i class="fa-brands fa-fedex"></i></p>
+                  <p>Omeorganic <i class="fa-brands fa-fedex"></i></p>
                 </span>
                 <span>
-                  <p>Nika  <i class="fa-solid fa-truck-fast"></i></p>
+                  <p>Nika <i class="fa-solid fa-truck-fast"></i></p>
                 </span>
                 <span>
-                  <p>You Hair Club And Academy  <i class="fa-brands fa-think-peaks"></i></p>
+                  <p>You Hair Club And Academy <i class="fa-brands fa-think-peaks"></i></p>
                 </span>
                 <span>
-                  <p>SmartVolume   <i class="fa-solid fa-building-shield"></i></p>
+                  <p>SmartVolume <i class="fa-solid fa-building-shield"></i></p>
                 </span>
                 
               </div>
@@ -121,21 +498,21 @@
               
               
               <div class="col-12 col-md-3 mt-4">
-                <h3>Dove siamo</h3>
+                <h3 class="h-footer">Dove siamo</h3>
                 <span>
-                  <address>20450 Greenfield Rd.Detroit, Michigan 48235</address>
+                  <address>Hairstylistgroup, Via Giovanni Modugno 12 A/B, Bari</address>
                 </span>
                 <span>
-                  <address>20804 John R Road Hazel Park, Michigan 48030</address>
+                  <address>Joinus Via Sacerdote Cozzolino Benedetto, 64, 80056 Ercolano NA</address>
                 </span>
                 <span>
-                  <address>Pontiac, MI 48341, USA</address>
+                  <address>OmeOrganic Via Padre Antonio Casamassa, 87, 00119 Roma, Italy</address>
                 </span>
                 <span>
-                  <address>14336 Eureka Road Southgate, Michigan 48195</address>
+                  <address>You Hair club and academy Via Bellini,83/85, Mola di Bari, Italy</address>
                 </span>
                 <span>
-                  <address>1456 Fort Street Lincoln Park, Michigan 48146</address>
+                  <address>Smart Volume Via di Grotte Portella, 6, 00044 Frascati RM </address>
                 </span>
                 
                 
@@ -145,22 +522,32 @@
               
               <div class="col-12 col-md-3 mt-4">
                 
-                <h3>Contatti</h3>
+                <h3 class="h-footer">Contatti</h3>
                 
                 <span>
-                  <address>Detroit (313) 345-4000 </address>
+                  <address>
+                    Hairstylistgroup 080 504 1748
+                  </address>
                 </span>
                 <span>
-                  <address>Hazel Park (248) 398-4653</address>
+                  <address>
+                    Joinus 08118251611
+                  </address>
                 </span>
                 <span>
-                  <address>Pontiac (248) 409-5626</address>
+                  <address>
+                    OmeOrganic 06.5652045/6
+                  </address>
                 </span>
                 <span>
-                  <address>Southgate (734) 225-6811</address>
+                  <address>
+                    You Hair345 330 6834
+                  </address>
                 </span>
                 <span>
-                  <address> Michigan (313) 438-0882</address>
+                  <address>
+                    Smart Volume 06 9429 3223
+                  </address>
                 </span>
                 
               </div>
@@ -169,7 +556,7 @@
               
               
               <div class="col-12 mt-5 mt-4">
-                <h3>Accettiamo
+                <h3 class="h-footer">Accettiamo
                   <span>
                     <i class="fa-brands fa-cc-mastercard"></i>
                   </span>
@@ -204,14 +591,18 @@
             
           </div>
         </footer>
-  <!--Fine Footer -->
-
-  <div>ciao</div>
-  <!-- Fontawesome Script -->
-  <script src="https://kit.fontawesome.com/b1b53eed38.js" crossorigin="anonymous"></script>
-  <!-- Bootstrap Script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <!-- My personal Script -->
-  <script src="Home.js"></script>
-</body>
-</html>
+        <!--Fine Footer -->
+        
+        <!-- Swiper Script -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- Fontawesome Script -->
+        <script src="https://kit.fontawesome.com/b1b53eed38.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <!-- My personal Script -->
+        <script src="Home.js"></script>
+      </body>
+      
+      </html>

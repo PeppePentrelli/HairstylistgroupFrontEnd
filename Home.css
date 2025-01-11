@@ -2,24 +2,22 @@
 :root { 
     --my-black : rgb(21, 21, 27); 
     --my-white : rgb(248, 249, 250);
-    --my-dark-grey : rgb(52, 58, 64);
+    --my-dark-grey : rgb(22, 24, 26);
     --my-light-grey : rgb(108, 117, 125);
 }
 
-
-/* --my-black : rgb(33, 37, 41);  */
 /*Fine Sezione variabili */
 
 
+
 /* font */
-.Frist-Front{
+.Frist-font{
     font-family: "Kaushan Script", serif;
     font-weight: 400;
     font-style: normal;
-}
+};
 
 /* font */
-
 
 
 body { 
@@ -30,13 +28,15 @@ body {
 
 h1 { 
     color: var(--my-white);
+
+    
 }
 
 
 /* Css per Navbar */
 
 .navCustom { 
-    background-color: var(--my-black) ;
+    background-image: url(Media-bg/priorita-bassa-moderna-di-stile-di-carta-nera-3d_24972-2020.jpg);
     color:  var(--my-white);
     border: solid 1px var(--my-dark-grey);
     min-height: 10vh;
@@ -47,13 +47,14 @@ h1 {
 
 
 .navCustomScrolled { 
-    background-color:  var(--my-white);
+    background-image: url(Media-bg/carta-da-parati-bianca-elegante-trama_23-2148417584.avif);
+    background-size: contain;
     color: var(--my-black);
     border: solid 1px var(--my-dark-grey);
     min-height: 15vh;
     width: 100%;
     transition: 0.5s;
-
+    
 }
 
 .logoCustom { 
@@ -85,8 +86,8 @@ h1 {
     margin-right: 4vh;
     transition: 0.5s;
 }
-/* Css per link in navbar scrollata */
 
+/* Css per link in navbar scrollata */
 .navLinkScrolled { 
     color: var(--my-black) ;
     font-family: "Kaushan Script", serif;
@@ -95,8 +96,8 @@ h1 {
     margin-right: 4vh;
     transition: 0.5s;
     padding-top: 155px;
-   font-size: 130%;
-   text-decoration: none;
+    font-size: 130%;
+    text-decoration: none;
 }
 
 .navLinkScrolled:hover { 
@@ -149,35 +150,624 @@ h1 {
     margin-right: 0.5vw;
 }
 
+/*Fine Css per link in navbar scrollata */
 
 /*Fine Css per Navbar */
 
 
+
+
+/* Inizio Header */
+
 header{
     padding-right: 0px;
     margin-top: 10vh;}
-
-
-    /* Footer */
-footer{ color: var(--my-white);}
-    /*Fine Footer */
-
-
-
-/* 
---bs-breakpoint-xs: 0;
---bs-breakpoint-sm: 576px;
---bs-breakpoint-md: 768px;
---bs-breakpoint-lg: 992px;
---bs-breakpoint-xl: 1200px;
---bs-breakpoint-xxl: 1400px; */
-
-
-/* @media screen and (max-width: 996) {
-
     
-    .collapse {
-     height: 40vh;
+    
+/* Fine Header */
+    
+    
+
+    /* inizio main */
+    
+    
+    .bgImg{ 
+        background-image: url(Media-bg/esagono-nero-astratto-della-priorita-bassa-di-struttura_206725-413.avif);
+        
+        background-repeat: repeat;
+        
     }
     
-} */
+    .sectionPresentazione{
+        color: var(--my-white);
+        font-size: 100%;
+    }
+    
+    .img-presentazione{ 
+        height: 50vh;
+        width: 50vh;
+        
+    }
+    
+/* Card main section */
+
+.swiper-slide.card {
+    width: 25%; 
+    height: auto; 
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-content{ 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card-content img {
+    height: 300px !important;
+    width: auto; 
+    object-fit: cover; 
+}
+
+
+
+.card-content h3 {
+    font-size: 1em; 
+}
+
+.card-content p {
+    font-size: 0.75em; 
+}
+
+.swiper-container {
+    width: 100%; 
+}
+
+.sectionPresentazione {
+    padding: 20px;
+}
+
+
+/* fine Card main section */
+
+
+    .h3-main {
+        color: var(--my-dark-grey);
+    }
+    
+    .text-section-card{ 
+        color: var(--my-white);
+    }
+    
+
+    
+    
+    .h3-main {
+        color: var(--my-dark-grey);
+    }
+    
+    .text-section-card{ 
+        color: var(--my-white);
+    }
+    
+
+    /* fine main */
+    
+    
+    /*Inizio section joinus */
+    
+    .section-joinus{ 
+        color: var(--my-white);
+        background-image: url(Media-bg/3463974_63165.jpg);
+        background-size: contain;
+        
+        
+    }
+    
+    .imgSlideJoinus{ 
+        width: 100vh;
+        height: 100vh;
+    }
+    
+    .titoli-section-joinus{ 
+        
+        color: var(--my-black);
+    }
+    
+    .imgSectionJoinus{ 
+        height: 80%;
+        width: 50%;
+        
+    }
+    
+    .imgSectionJoinus2{ 
+        
+        height: 80%;
+        width: 80%;  
+    }
+    
+    .buttonJoinus{ 
+        background-color: var(--my-dark-grey);
+        color: var(--my-white);
+    }
+    
+    .buttonJoinusBis{ 
+        background-color: var(--my-dark-grey);
+        color: var(--my-white);
+        
+        
+    }
+    
+    .divImgJoinus{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        
+    }
+    
+    .imgJoinus3{  
+        height: 70%;
+        width: 70%;
+    }
+    
+    .section-orari-lavorativi{ 
+        
+        color: var(--my-white);
+        
+        
+    }
+    /* Fine sezione joinus */
+
+
+    
+    /* omeorganic section */
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    body {
+        background: #000;
+        color: #000;
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .swiper-slide {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .mySwiper2 {
+        height: 80%;
+        width: 100%;
+    }
+    
+    .mySwiper {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+    
+    .mySwiper .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+    }
+    
+    .mySwiper .swiper-slide-thumb-active {
+        opacity: 1;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .containerOmeOrganic{ 
+        background-image: url(Media-bg/beautiful-green-texture-with-raindrops.jpg);
+        color: var(--my-white);
+    }
+    /*Fine omeorganic section */
+    
+
+
+
+
+
+    /* Section FAQ */ 
+    .accordion-button:not(.collapsed) { 
+        
+        background-color: var(--my-dark-grey);
+        color: var(--my-white);
+        box-shadow: none;
+    }
+    
+    .accordion-button::after{ 
+        color: my var(--my-white);
+    }
+    
+    .h2Faq{ 
+        color: var(--my-white);
+        font-size: xx-large;
+        margin-top: 100px;
+    }
+    
+    /* Fine Section FAQ */ 
+    
+
+
+
+
+
+  
+    /* Footer */
+    footer {
+        color: var(--my-white);
+        background-color: var(--my-dark-grey);
+    };
+    
+
+    .h-footer  { 
+        color: var(--my-white);
+    };
+    
+    
+    /*Fine Footer */
+    
+    
+    
+    
+    
+
+   
+    /* .item-1 { 
+    order: 1;
+    }
+    
+    .item-2{
+    order: 2;
+    
+    } */
+    
+    
+    /* PAGINA PRODOTTI */
+    
+    .mainPaginaProdotti{  
+        
+        margin-top: 200px;
+        background-image: url(Media-bg/esagono-nero-astratto-della-priorita-bassa-di-struttura_206725-413.avif);
+        
+    }
+    
+    
+    
+    .cardProdotti {
+        border: solid 2px var(--my-white);
+        color: var(--my-white);
+        height: 500px;
+        width: 300px;
+        display: flex;
+        flex-direction: column; 
+        overflow: hidden;
+        text-align: center;
+        margin-top: 40px;
+        box-shadow: 4px 6px 6px 6px whitesmoke;
+        background-image: url(Media-bg/stile-minimalista-a-ondata-di-sfondo-gradiente_483537-4965.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10%;
+        position: relative;
+        perspective: 1000px;
+    }
+    
+    .cardProdotti:hover .front {
+        transform: rotateY(180deg);
+    }
+    
+    .cardProdotti:hover .back {
+        transform: rotateY(0deg);
+    }
+    
+    .face {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        transition: transform 0.6s;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .front {
+        transform: rotateY(0deg);
+    }
+    
+    .back {
+        transform: rotateY(180deg);
+        background-color: var(--Primary-color);
+        color: var(--my-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px; 
+        gap: 10px; 
+    }
+    
+    
+    .contenitoreProdotti {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .cardProdotti img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    
+    .cardProdotti p {
+        margin-top: 5px;
+        margin-bottom: 5px; 
+    }
+    
+    
+    .cardProdotti h4, .cardProdotti p {
+        max-width: 80%;
+        word-wrap: break-word; 
+    }
+    
+    .cardProdotti img {
+        max-width: 70%; 
+        height: auto; 
+        margin: 0 auto; 
+        display: block; 
+    }
+    
+    
+    .cardProdotti h4 { 
+        text-transform: uppercase;
+    }
+    
+    
+    /*FINE PAGINA PRODOTTI */
+    
+    
+
+    
+    
+
+    
+    @media (max-width: 2300px) {
+        .swiper-slide {
+            width: 50%; 
+        }
+        
+        .card-content h3 {
+            font-size: 1.2em; 
+        }
+        
+        .card-content p {
+            font-size: 0.9em; 
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: auto; 
+            overflow: hidden;
+        }
+        
+        .contattiCustom {
+            margin-top: 30px;
+        }
+        
+    }
+    
+    
+
+/* Media query per tablet */
+@media (max-width: 1024px) {
+    .swiper-slide.card {
+        width: 50%; /* Metà della larghezza */
+        padding: 8px; /* Riduci il padding */
+        height: 400px; /* Aumenta l'altezza delle card per schermi medi */
+    }
+
+    .card-content img {
+        height: 200px !important; /* Riduci l'altezza delle immagini */
+    }
+
+    .card-content h3 {
+        font-size: 1.2em; /* Aumenta leggermente la dimensione del font */
+    }
+
+    .card-content p {
+        font-size: 0.9em; /* Aumenta leggermente la dimensione del font */
+    }
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+    .swiper-slide.card {
+        width: 50%; /* Larghezza completa per mobile */
+        padding: 5px; /* Riduci ulteriormente il padding */
+        height: 400px
+    }
+
+    .card-content img {
+        height: 300px !important; /* Riduci ulteriormente l'altezza delle immagini */
+    }
+
+    .card-content h3 {
+        font-size: 1.2em; /* Dimensione del font più grande per leggibilità */
+    }
+
+    .card-content p {
+        font-size: 0.9em; /* Dimensione del font più grande per leggibilità */
+    }
+
+    /* section contatti social */
+
+    .contenitoreProdotti {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+
+
+.contattiCustom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.button-4 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: var(--my-white);
+    border: 1px solid var(--my-white);
+    text-transform: uppercase;
+    color: var(--my-black);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    position: relative;
+    margin: border 50px;
+}
+
+.button-4:hover {
+    border: none;
+    transform: scale(1.4);
+    
+}
+
+.links {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: var(--my-white);
+    left: -1px;
+    top: -1px;
+    opacity: 0;
+    transition: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.button-4:hover .links {
+    opacity: 1;
+    
+}
+
+a.button-4-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--Secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--my-black);
+    text-decoration: none;
+    
+    
+    
+}
+
+a.button-4-box:hover {
+    transform: scale(2.0);
+    transition: 1s;
+}
+
+a.button-4-box i {
+    transition: 1s;
+    
+}
+
+a.button-4-box:hover i {
+    transform: scale(1.5)
+}
+
+
+    .map-container {
+        position: relative;
+        overflow: hidden;
+        height: 50vh;
+        color: var(--my-white);
+    }
+    
+    .map {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* section contatti social */
+    
+
+}
+
+/* Media query per schermi molto piccoli */
+@media (max-width: 480px) {
+    .swiper-slide.card {
+        width: 50%; /* Larghezza completa per schermi molto piccoli */
+        padding: 3px; /* Riduci al minimo il padding */
+        height: 250px; /* Altezza delle card per schermi molto piccoli */
+    }
+
+    .card-content img {
+        height: 120px !important; /* Riduci ulteriormente l'altezza delle immagini */
+    }
+
+    .card-content h3 {
+        font-size: 1.1em; /* Dimensione del font regolata */
+    }
+
+    .card-content p {
+        font-size: 0.85em; /* Dimensione del font regolata */
+    }
+}
